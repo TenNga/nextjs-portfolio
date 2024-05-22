@@ -1,3 +1,4 @@
+
 export default function RightSidebar() {
-    return <div>Right Sidebar</div>
+    return <div className="grow-[2]">Right Sidebar</div>
 };

@@ -1,4 +1,4 @@
-import Menu from "../Shared/menu";
+import Menu from "../Shared/Menu";
 import homeIcon from '../../public/images/home_icon.png'
 
 function Navigation(){
@@ -23,11 +23,11 @@ function Navigation(){
             name:'resume',
             icon: homeIcon
         }];
-    const renderMenu = mainMenu.map(menu => <Menu name={menu.name} icon={menu.icon.src} />) 
+    const renderMenu = mainMenu.map(menu => <Menu key={menu.name} name={menu.name} icon={menu.icon.src} />) 
     return (
-        <div>
-
-        </div>
+        <ul className="mt-20 mx-7">
+            {renderMenu}
+        </ul>
     )
 };
 

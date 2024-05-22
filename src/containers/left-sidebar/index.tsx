@@ -1,3 +1,7 @@
+import Navigation from "@/components/Navigation";
+
 export default function LeftSidebar() {
-    return <div>Right Sidebar</div>
+    return <div className="grow">
+            <Navigation />
+        </div>
 };
