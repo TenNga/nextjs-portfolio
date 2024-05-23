@@ -1,4 +1,5 @@
+import { ClassProps } from "@/types";
 
-export default function RightSidebar() {
-    return <div className="grow-[2]">Right Sidebar</div>
+export default function RightSidebar({className}:ClassProps) {
+    return (<div className={className}>Right Sidebar</div>)
 };
