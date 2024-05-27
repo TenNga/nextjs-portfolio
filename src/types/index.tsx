@@ -6,3 +6,7 @@ export type MenuIconType = {
 export type ClassProps = {
     className: string
 }
+
+export type childPromp = {
+    children: React.ReactNode
+}
