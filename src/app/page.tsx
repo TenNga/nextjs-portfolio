@@ -6,9 +6,9 @@ import "../styles/globals.css";
 export default function Home() {
   return (
     <main className="flex">
-      <LeftSidebar className="grow" />
-      <MainSection className="grow-[3]"  />
-      <RightSidebar className="grow-[2]"  />
+      <LeftSidebar />
+      <MainSection />
+      <RightSidebar  />
     </main>
   );
 }

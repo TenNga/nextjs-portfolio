@@ -1,10 +1,10 @@
 import { ClassProps } from "@/types";
 import MainHobby from "./MainHobby";
 
-function MainSection({className}:ClassProps) {
+function MainSection() {
 
     return(
-        <div className={className}>
+        <div className="mt-20 grow-[3]">
             <MainHobby />
             Main Section Content
         </div>

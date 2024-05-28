@@ -23,11 +23,13 @@ function MainHobby(){
         }
     ];
     const renderCards = hobbies.map(hobby => {
-        return <Card> 
-                <Image src={hobby.icon} alt={hobby.title} />
-                <h1>{hobby.title}</h1>
-                <p>{hobby.body}</p>
+        return (
+            <Card key={hobby.title} className="mx-5 w-full py-12 flex flex-col items-center"> 
+                <Image src={hobby.icon} alt={hobby.title} className="min-w-[40px] min-h-[48px] mb-[16px]" />
+                <h1 className="text-[color:var(--true-white)] mb-[8px] text-base font-bold">{hobby.title}</h1>
+                <p className="text-sm">{hobby.body}</p>
             </Card>
+        )
     })
     return(
         <div className="flex justify-between">
