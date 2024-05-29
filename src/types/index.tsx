@@ -15,3 +15,9 @@ export type cardPromp = {
     children: React.ReactNode,
     className?: string
 }
+
+export type SkillHobbyType = {
+    title: string,
+    link: string,
+    icon: StaticImageData
+}

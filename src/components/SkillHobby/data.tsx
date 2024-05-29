@@ -10,6 +10,14 @@ import gitIcon from '../../public/images/git.png';
 import jiraIcon from '../../public/images/jira.png';
 import figmaIcon from '../../public/images/figma.png';
 import npmIcon from '../../public/images/npm.png';
+import hikeIcon from '../../public/images/hiking.png';
+import swimIcon from '../../public/images/swim.png';
+import cycleIcon from '../../public/images/cycle.png';
+import campIcon from '../../public/images/camp.png';
+import movieIcon from '../../public/images/movie.png';
+import gameIcon from '../../public/images/game.png';
+import cookingIcon from '../../public/images/cooking.png';
+import travelIcon from '../../public/images/travel.png';
 
 
 export const skills = [
@@ -78,43 +86,43 @@ export const skills = [
 export const hobbies = [
     {
         title:"hiking",
-        link: "",
-        icon: ""
+        link: "https://www.alltrails.com/",
+        icon: hikeIcon
     },
     {
         title:"swimming",
-        link: "",
-        icon: ""
+        link: "https://www.swimming.org/poolfinder/",
+        icon: swimIcon
     },
     {
         title:"biking",
-        link: "",
-        icon: ""
+        link: "https://www.bikemap.net/",
+        icon: cycleIcon
     },
     {
         title:"camping",
-        link: "",
-        icon: ""
+        link: "https://www.recreation.gov/",
+        icon: campIcon
     },
     {
         title:"movie",
-        link: "",
-        icon: ""
+        link: "https://www.imdb.com/",
+        icon: movieIcon
     },
     {
         title:"gaming",
-        link: "",
-        icon: ""
+        link: "https://www.callofduty.com/hub",
+        icon: gameIcon
     },
     {
         title:"cooking",
-        link: "",
-        icon: ""
+        link: "https://cooking.nytimes.com/",
+        icon: cookingIcon
     },
     {
         title:"travel",
-        link: "",
-        icon: ""
+        link: "https://www.forbes.com/travel/",
+        icon: travelIcon
     }
 ];
 

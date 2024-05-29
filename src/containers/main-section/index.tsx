@@ -4,7 +4,7 @@ import MainHobby from "./MainHobby";
 function MainSection() {
 
     return(
-        <div className="grow-[3]  mt-20">
+        <div className="mt-20 basis-3/5">
             <MainHobby />
             Main Section Content
         </div>
