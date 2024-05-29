@@ -3,7 +3,7 @@ import {IconType} from 'react-icons';
 
 export type MenuIconType = {
     name: string,
-    icon: JSX.Element | StaticImageData,
+    icon: JSX.Element,
     path: string
 }
 

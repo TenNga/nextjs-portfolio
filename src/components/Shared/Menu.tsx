@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 
 function Menu({name, icon,path}:MenuIconType) {
     const pathName = usePathname();
-    const isActive = pathName.startsWith(path);
+    const isActive = pathName === path;
     return(
         <li className={`flex items-center justify-center mt-[4px] ${isActive? "text-black" : ""}`}>
             <Link href={path} 
