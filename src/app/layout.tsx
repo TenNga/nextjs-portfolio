@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <main className="flex">
           <LeftSidebar />
-          <div className="grow-[6]">
+          <div className="flex grow-[6]">
             {children}
           </div>
         </main>
