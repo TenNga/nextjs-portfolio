@@ -42,29 +42,31 @@ function HistoryTimeline() {
   },
 ];
     return(
-        <div className='h-[450px]'>
-            <h1>History Timeline</h1>
-            <ResponsiveContainer width="100%" height="100%">
-                <LineChart
-                width={500}
-                height={300}
-                data={data}
-                margin={{
-                    top: 5,
-                    right: 30,
-                    left: 20,
-                    bottom: 5,
-                }}
-                >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Line type="monotone" dataKey="uv" stroke="#82ca9d" strokeDasharray="3 4 5 2" />
-                </LineChart>
-            </ResponsiveContainer>
-        </div>
+        <>
+            <h1 className='mt-10 mx-6 capitalize text-white font-medium text-xl'>Life Timeline</h1>
+            <div className='h-[280px] bg-[color:var(--content-background)] rounded-xl mx-5 mt-6'>
+                <ResponsiveContainer width="100%" height="100%">
+                    <LineChart
+                        width={500}
+                        height={200}
+                        data={data}
+                        margin={{
+                            top: 5,
+                            right: 30,
+                            left: 20,
+                            bottom: 5,
+                        }}
+                    >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="name" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    <Line type="monotone" dataKey="uv" stroke="#82ca9d" strokeDasharray="3 4 5 2" />
+                    </LineChart>
+                </ResponsiveContainer>
+            </div>
+        </>
     )
 };
 

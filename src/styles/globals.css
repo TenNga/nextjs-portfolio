@@ -23,6 +23,10 @@ body {
   background: var(--background);
 }
 
+* {
+  overflow: auto;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
