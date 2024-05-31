@@ -1,4 +1,5 @@
 import { StaticImageData } from 'next/image';
+import React from 'react';
 import {IconType} from 'react-icons';
 
 export type MenuIconType = {
@@ -15,6 +16,8 @@ export type cardPromp = {
     children: React.ReactNode,
     className?: string
 }
+
+export interface childrenPromp extends cardPromp {}
 
 export type SkillHobbyType = {
     title: string,
