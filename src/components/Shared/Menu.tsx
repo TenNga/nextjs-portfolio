@@ -3,7 +3,7 @@ import { MenuIconType } from "@/types";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-function Menu({name, icon,path}:MenuIconType) {
+function Menu({name,icon,path}:MenuIconType) {
     const pathName = usePathname();
     const isActive = pathName === path;
     return(

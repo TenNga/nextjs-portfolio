@@ -24,3 +24,11 @@ export type SkillHobbyType = {
     link: string,
     icon: StaticImageData
 }
+
+export type ProjectType = {
+    project: {
+        name: string,
+        link: string,
+        description: string,
+    }
+}
