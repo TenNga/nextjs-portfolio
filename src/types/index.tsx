@@ -32,3 +32,7 @@ export type ProjectType = {
         description: string,
     }
 }
+
+export interface LinkProp extends cardPromp {
+    href: string
+}
