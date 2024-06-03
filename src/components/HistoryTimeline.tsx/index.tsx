@@ -2,6 +2,7 @@
 
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { HeaderPrimary } from '../Shared/Heading';
+import GitHubCalendar from 'react-github-calendar';
 
 function HistoryTimeline() {
 
@@ -43,9 +44,9 @@ function HistoryTimeline() {
   },
 ];
     return(
-        <div className='mt-10'>
-            <HeaderPrimary>Life Timeline</HeaderPrimary>
-            <div className='h-[280px] bg-[color:var(--content-background)] rounded-xl mt-6'>
+        <div className='mt-5'>
+            <HeaderPrimary>I'm a growing?</HeaderPrimary>
+            {/* <div className='h-[280px] bg-[color:var(--content-background)] rounded-xl mt-5'>
                 <ResponsiveContainer width="100%" height="100%">
                     <LineChart
                         width={500}
@@ -66,7 +67,8 @@ function HistoryTimeline() {
                     <Line type="monotone" dataKey="uv" stroke="#82ca9d" strokeDasharray="3 4 5 2" />
                     </LineChart>
                 </ResponsiveContainer>
-            </div>
+            </div> */}
+            <GitHubCalendar username="tennga" />
         </div>
     )
 };

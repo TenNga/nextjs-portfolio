@@ -5,7 +5,7 @@ import { HeaderLarge } from "@/components/Shared/Heading";
 
 export default function RightSidebar() {
     return (
-        <div className="basis-2/5 bg-[color:var(--content-background)] rounded-tl-[40px] px-16 box-border">
+        <div className="basis-[35%] bg-[color:var(--content-background)] rounded-tl-[40px] px-16 box-border">
             <div className="developer-title flex flex-col items-center">
                 <Image src={userImage} alt="user image" width={152} height={152} className="mt-5"/>
                 <HeaderLarge className="mt-8">kevin karma</HeaderLarge>
