@@ -45,30 +45,10 @@ function HistoryTimeline() {
 ];
     return(
         <div className='mt-5'>
-            <HeaderPrimary>I'm a growing?</HeaderPrimary>
-            {/* <div className='h-[280px] bg-[color:var(--content-background)] rounded-xl mt-5'>
-                <ResponsiveContainer width="100%" height="100%">
-                    <LineChart
-                        width={500}
-                        height={200}
-                        data={data}
-                        margin={{
-                            top: 5,
-                            right: 30,
-                            left: 20,
-                            bottom: 5,
-                        }}
-                    >
-                    <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="name" />
-                    <YAxis />
-                    <Tooltip />
-                    <Legend />
-                    <Line type="monotone" dataKey="uv" stroke="#82ca9d" strokeDasharray="3 4 5 2" />
-                    </LineChart>
-                </ResponsiveContainer>
-            </div> */}
-            <GitHubCalendar username="tennga" />
+            <HeaderPrimary className="mb-4">Am I Growing?</HeaderPrimary>
+            <div className='mobile:w-[350px] mobile:mx-auto'>
+                <GitHubCalendar username="tennga" />
+            </div>
         </div>
     )
 };

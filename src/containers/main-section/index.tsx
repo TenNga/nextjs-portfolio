@@ -5,7 +5,7 @@ import RecentProject from "@/components/RecentProject";
 function MainSection() {
 
     return(
-        <div className="mt-5 mx-6 basis-[65%]">
+        <div className="mt-5 mx-6 basis-[65%] mobile:basis-full">
             <MainHobby />
             <HistoryTimeline />
             <RecentProject />

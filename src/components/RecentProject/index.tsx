@@ -19,7 +19,7 @@ function RecentProject() {
     return(
         <div className="mt-5">
             <HeaderPrimary>Recent Project</HeaderPrimary>
-            <div className="flex w-full gap-x-6 mt-5">
+            <div className="flex w-full gap-x-6 mt-5 mobile:flex-wrap mobile:gap-y-6 mobile:mb-5">
                 {renderProject}
             </div>
         </div>
