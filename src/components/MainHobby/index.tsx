@@ -32,7 +32,7 @@ function MainHobby({className}:{className?:string}){
         )
     })
     return(
-        <div className={`flex justify-between gap-x-5 mobile:hidden ${className}`}>
+        <div className={`flex justify-between gap-x-5 ${className}`}>
             {renderCards}
         </div>
     )

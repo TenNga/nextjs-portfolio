@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <main className="flex">
           <LeftSidebar />
-          <div className="flex grow-[5] mobile:flex-wrap-reverse w-dvw mobile:h-dvh">
+          <div className="flex grow-[5] mobile:flex-wrap-reverse w-dvw">
             {children}
           </div>
         </main>

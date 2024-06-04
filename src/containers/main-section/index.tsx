@@ -6,7 +6,7 @@ function MainSection() {
 
     return(
         <div className="mt-5 mx-6 basis-[65%] mobile:basis-full">
-            <MainHobby />
+            <MainHobby className="mobile:hidden"/>
             <GithubActivityGraph />
             <RecentProject />
         </div>
