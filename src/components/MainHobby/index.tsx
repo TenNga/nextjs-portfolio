@@ -4,7 +4,7 @@ import MusicIcon from "../../public/images/headphone.png"
 import DuckIcon from "../../public/images/duck.png"
 import Image from 'next/image'
 
-function MainHobby(){
+function MainHobby({className}:{className?:string}){
     const hobbies = [
         {
             title: 'Coffee',
@@ -32,7 +32,7 @@ function MainHobby(){
         )
     })
     return(
-        <div className="flex justify-between gap-x-5 mobile:hidden">
+        <div className={`flex justify-between gap-x-5 mobile:hidden ${className}`}>
             {renderCards}
         </div>
     )

@@ -4,7 +4,7 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsi
 import { HeaderPrimary } from '../Shared/Heading';
 import GitHubCalendar from 'react-github-calendar';
 
-function HistoryTimeline() {
+function GithubActivityGraph() {
 
     const data = [
   {
@@ -53,4 +53,4 @@ function HistoryTimeline() {
     )
 };
 
-export default HistoryTimeline;
+export default GithubActivityGraph;

@@ -1,5 +1,5 @@
 import MainHobby from "@/components/MainHobby";
-import HistoryTimeline from "@/components/HistoryTimeline.tsx";
+import GithubActivityGraph from "@/components/GithubActivityGraph.tsx";
 import RecentProject from "@/components/RecentProject";
 
 function MainSection() {
@@ -7,7 +7,7 @@ function MainSection() {
     return(
         <div className="mt-5 mx-6 basis-[65%] mobile:basis-full">
             <MainHobby />
-            <HistoryTimeline />
+            <GithubActivityGraph />
             <RecentProject />
         </div>
     )
