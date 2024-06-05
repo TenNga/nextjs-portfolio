@@ -39,6 +39,7 @@ export type ProjectDetailType = {
         description: string;
         link: string;
         image: StaticImageData;
+        videoLink?: string
     }
 }
 
