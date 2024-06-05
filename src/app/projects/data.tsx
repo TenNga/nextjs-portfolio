@@ -28,4 +28,16 @@ export const projectData = [
         link: 'https://github.com/TenNga/Maze-Game-Front-End',
         image: mazeImg
     },
+    {
+        title: 'Maze Game',
+        description: 'Developed grid base single-page JavaScript Maze game. Implemented custom design using CSS and HTML for excellent UX/UI. Utilized Ruby on Rails to store player information',
+        link: 'https://github.com/TenNga/Maze-Game-Front-End',
+        image: mazeImg
+    },
+    {
+        title: 'Maze Game',
+        description: 'Developed grid base single-page JavaScript Maze game. Implemented custom design using CSS and HTML for excellent UX/UI. Utilized Ruby on Rails to store player information',
+        link: 'https://github.com/TenNga/Maze-Game-Front-End',
+        image: mazeImg
+    },
 ];

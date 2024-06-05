@@ -4,7 +4,7 @@ import ProjectList from "./ProjectList";
 
 function Projects() {
     return(
-        <article className="w-full text-center content-center">
+        <article className="w-full text-center mt-10">
             <section>
                 <HeaderLarge>My Favorite Projects</HeaderLarge>
                 <PrimaryPara>Want to see more, visit <a href="https://github.com/TenNga" rel="Kevin Github URL">GitHub</a></PrimaryPara>
