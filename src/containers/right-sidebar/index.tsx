@@ -3,7 +3,7 @@ import ProfileInfo from "@/components/Shared/ProfileInfo";
 
 export default function RightSidebar() {
     return (
-        <div className="basis-[35%] bg-[color:var(--content-background)] rounded-tl-[40px] px-16 box-border mobile:bg-transparent mobile:rounded-none mobile:basis-full">
+        <aside className="basis-[35%] bg-[color:var(--content-background)] rounded-tl-[40px] px-16 box-border mobile:bg-transparent mobile:rounded-none mobile:basis-full">
             <div className="developer-title flex flex-col items-center">
                <ProfileInfo />
             </div>
@@ -11,6 +11,6 @@ export default function RightSidebar() {
                 <SkillHobby name="skills" />
                 <SkillHobby name="hobby" />
             </div>
-        </div>
+        </aside>
     )
 };
