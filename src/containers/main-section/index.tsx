@@ -1,5 +1,5 @@
 import MainHobby from "@/components/MainHobby";
-import GithubActivityGraph from "@/components/GithubActivityGraph.tsx";
+import GithubActivityGraph from "@/components/GithubActivityGraph";
 import RecentProject from "@/components/RecentProject";
 
 function MainSection() {

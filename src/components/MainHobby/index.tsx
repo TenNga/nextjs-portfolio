@@ -1,4 +1,4 @@
-import Card from "@/components/Card.tsx";
+import Card from "@/components/Card";
 import CoffeeIcon from "../../public/images/coffee.png"
 import MusicIcon from "../../public/images/headphone.png"
 import DuckIcon from "../../public/images/duck.png"
