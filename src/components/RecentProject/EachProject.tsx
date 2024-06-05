@@ -2,6 +2,7 @@ import { ProjectType } from "@/types/index.jsx";
 import Card from "../Card.tsx";
 import { HeaderSecondary } from "../Shared/Heading"
 import LinkBtn from "../Shared/LinkBtn";
+import { PrimaryPara } from "../Shared/Para";
 
 function EachProject({project}: ProjectType) {
     return(
@@ -10,7 +11,7 @@ function EachProject({project}: ProjectType) {
                 <HeaderSecondary>{project.name}</HeaderSecondary>
                 <LinkBtn href={project.link}>Link</LinkBtn>
             </header>
-            <p className="text-white">{project.description}</p>
+            <PrimaryPara>{project.description}</PrimaryPara>
         </Card>
     )
 };
