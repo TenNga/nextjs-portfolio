@@ -1,7 +1,6 @@
 import { HeaderPrimary } from "@/components/Shared/Heading";
 import Card from "../../components/Card";
 import { projectData } from "./data";
-import { PrimaryPara } from "@/components/Shared/Para";
 import Image from "next/image";
 import ProjectBody from "./ProjectBody";
 import { FaGithub } from "react-icons/fa6";
