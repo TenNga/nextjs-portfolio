@@ -1,10 +1,10 @@
 'use client'
-import { TableType } from "@/types";
+import { TableRowType } from "@/types";
 import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, getKeyValue, Divider} from "@nextui-org/react";
 import { linkData } from "./data";
 
 function ListTable() {
-    const renderRow = linkData.personal.map(link =>{
+    const renderRow = linkData.personal.map((link:TableRowType) =>{
         return(
             <TableRow key="1"> 
                 <TableCell>{link.title}</TableCell> 

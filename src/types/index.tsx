@@ -46,7 +46,7 @@ export type ProjectDetailType = {
 export type TableRowType = {
         title: string,
         path: string,
-        icon: React.ReactNode
+        icon: JSX.Element
 }
 
 export interface LinkProp extends cardPromp {

@@ -7,44 +7,44 @@ export const linkData =
             {
                 title: 'LinkedIn',
                 path: 'https://www.linkedin.com/in/kevin-karma-b57007210',
-                icon: FaLinkedin
+                icon: <FaLinkedin />
             },
             {
                 title: 'Github',
                 path: 'https://github.com/TenNga',
-                icon: FaGithub
+                icon: <FaGithub />
             },
             {
                 title: 'Figma',
                 path: 'https://www.figma.com/@kevinkarma',
-                icon: FaFigma
+                icon: <FaFigma />
             },
             {
                 title: 'Shopify',
                 path: 'https://community.shopify.com/c/user/viewprofilepage/user-id/1072323',
-                icon: FaShopify
+                icon: <FaShopify />
             },
         ],
         others: [
             {
                 title: 'Learning area',
                 path: 'https://www.udemy.com/',
-                icon: SiUdemy
+                icon: <SiUdemy />
             },
             {
                 title: 'CSS King',
                 path: 'https://www.youtube.com/@KevinPowell',
-                icon: FaYoutube
+                icon: <FaYoutube />
             },
             {
                 title: 'Keep updated: TLDR',
                 path: 'https://tldr.tech/webdev',
-                icon: FaRegNewspaper
+                icon: <FaRegNewspaper />
             },
             {
                 title: 'Keep updated: Frontend Focus',
                 path: 'https://frontendfoc.us/',
-                icon: FaMailBulk
+                icon: <FaMailBulk />
             },
         ]
     };
