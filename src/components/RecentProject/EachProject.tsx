@@ -1,5 +1,5 @@
 import { ProjectType } from "@/types/index.jsx";
-import Card from "../Card/index.jsx";
+import Card from "../Card";
 import { HeaderSecondary } from "../Shared/Heading"
 import LinkBtn from "../Shared/LinkBtn";
 import { PrimaryPara } from "../Shared/Para";
