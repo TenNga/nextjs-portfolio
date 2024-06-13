@@ -50,5 +50,6 @@ export type TableRowType = {
 }
 
 export interface LinkProp extends cardPromp {
-    href: string
+    href: string,
+    [x:string]: any;
 }

@@ -31,8 +31,9 @@ const DisplayResume = ({ pdfUrl } : { pdfUrl: string}) => {
         file={pdfUrl}
         onLoadSuccess={onDocumentLoadSuccess}
         onLoadError={onDocumentLoadError}
+        
       >
-        <Page pageNumber={1} />
+        <Page pageNumber={1} className="mobile:[&_canvas]:!w-[300px] [&_canvas]:!h-[100%]"/>
       </Document>
   );
 };
