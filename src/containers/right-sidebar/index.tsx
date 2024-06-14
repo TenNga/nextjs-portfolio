@@ -1,13 +1,11 @@
 import SkillHobby from "@/components/SkillHobby";
 import ProfileInfo from "@/components/Shared/ProfileInfo";
-import BurgerMenu from "./BurgerMenu";
 
 export default function RightSidebar() {
     
     return (
         <aside className="basis-[35%] bg-[color:var(--content-background)] rounded-tl-[40px] px-16 box-border mobile:bg-transparent mobile:rounded-none mobile:basis-full mobile:px-4">
             <div className="developer-title flex flex-col items-center">
-                <BurgerMenu />
                <ProfileInfo />
             </div>
             <div className="skill-hobby-container">
