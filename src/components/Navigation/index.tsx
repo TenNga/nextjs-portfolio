@@ -4,6 +4,7 @@ import { FaRegUserCircle } from "react-icons/fa";
 import { LiaProjectDiagramSolid } from "react-icons/lia";
 import { CiLink } from "react-icons/ci";
 import { TiDocumentText } from "react-icons/ti";
+import CloseMenu from "./CloseMenu";
 
 function Navigation({menuRef}:{menuRef: React.RefObject<HTMLUListElement>}){
     const mainMenu = [
@@ -39,6 +40,7 @@ function Navigation({menuRef}:{menuRef: React.RefObject<HTMLUListElement>}){
     }) 
     return (
         <nav className="grow border-r-[1px] border-[#585858] h-dvh mobile:absolute mobile:-left-full mobile:bg-[var(--background)]" ref={menuRef}>
+            <CloseMenu  menuRef={menuRef}/>
             <ul className="flex justify-center items-center flex-col mt-20 mx-7">
                 {renderMenu}
             </ul>
