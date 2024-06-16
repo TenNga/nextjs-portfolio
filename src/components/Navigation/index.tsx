@@ -5,7 +5,7 @@ import { LiaProjectDiagramSolid } from "react-icons/lia";
 import { CiLink } from "react-icons/ci";
 import { TiDocumentText } from "react-icons/ti";
 
-function Navigation(){
+function Navigation({menuRef}:{menuRef: React.RefObject<HTMLUListElement>}){
     const mainMenu = [
         {
             name:'home',
@@ -38,9 +38,11 @@ function Navigation(){
             )
     }) 
     return (
-        <ul className="flex justify-center items-center flex-col mt-20 mx-7">
-            {renderMenu}
-        </ul>
+        <nav className="grow border-r-[1px] border-[#585858] h-dvh mobile:absolute mobile:-left-full mobile:bg-[var(--background)]" ref={menuRef}>
+            <ul className="flex justify-center items-center flex-col mt-20 mx-7">
+                {renderMenu}
+            </ul>
+        </nav>
     )
 };
 

@@ -1,13 +1,16 @@
+'use client';
 import Navigation from "@/components/Navigation";
 import BurgerMenu from "./BurgerMenu";
+import { useRef } from "react";
 
 export default function LeftSidebar() {
+    const menuRef = useRef<HTMLUListElement>(null);
+
     return (
         <>
-            <BurgerMenu />
-            <nav className="grow border-r-[1px] border-[#585858] h-dvh mobile:absolute mobile:-left-full mobile:bg-[var(--background)]">
-                <Navigation />
-            </nav>
+            <BurgerMenu getMenuRef={menuRef}/>
+            <Navigation menuRef={menuRef}/>
+            
         </>
     )
 };
