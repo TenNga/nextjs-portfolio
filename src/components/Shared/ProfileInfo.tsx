@@ -1,5 +1,5 @@
 import Image from "next/image";
-import userImage from '../../public/images/userImage.png';
+import userImage from '../../../public/images/userImage.png';
 import { HeaderLarge } from "./Heading";
 
 export default function ProfileInfo({className}:{className?:string}) {

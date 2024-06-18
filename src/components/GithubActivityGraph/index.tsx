@@ -1,6 +1,5 @@
 'use client'
 
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { HeaderPrimary } from '../Shared/Heading';
 import GitHubCalendar from 'react-github-calendar';
 

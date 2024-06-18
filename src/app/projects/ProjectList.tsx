@@ -9,7 +9,7 @@ import { MdOndemandVideo } from "react-icons/md";
 function ProjectList() {
     const renderProject = projectData.map(project => {
         return (
-            <Card className="text-white basis-[calc(33.33%-12px)] px-10 py-5 mobile:basis-full">
+            <Card key={project.title} className="text-white basis-[calc(33.33%-12px)] px-10 py-5 mobile:basis-full">
                 <section className="flex justify-between items-center mb-5">
                     <HeaderPrimary>{project.title}</HeaderPrimary>
                     <div className="flex gap-x-2 justify-center">

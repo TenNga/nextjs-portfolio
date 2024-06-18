@@ -39,7 +39,7 @@ function Navigation({menuRef}:{menuRef: React.RefObject<HTMLUListElement>}){
             )
     }) 
     return (
-        <nav className="grow border-r-[1px] border-[#585858] h-dvh mobile:absolute mobile:-left-full mobile:bg-[var(--background)]" ref={menuRef}>
+        <nav className="grow border-r-[1px] border-[#585858] h-dvh mobile:absolute mobile:-left-full mobile:bg-[var(--background)] z-10" ref={menuRef}>
             <CloseMenu  menuRef={menuRef}/>
             <ul className="flex justify-center items-center flex-col mt-20 mx-7">
                 {renderMenu}

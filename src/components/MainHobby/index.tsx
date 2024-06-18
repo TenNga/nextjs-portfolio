@@ -1,7 +1,7 @@
 import Card from "@/components/Card";
-import CoffeeIcon from "../../public/images/coffee.png"
-import MusicIcon from "../../public/images/headphone.png"
-import DuckIcon from "../../public/images/duck.png"
+import CoffeeIcon from "../../../public/images/coffee.png"
+import MusicIcon from "../../../public/images/headphone.png"
+import DuckIcon from "../../../public/images/duck.png"
 import Image from 'next/image'
 
 function MainHobby({className}:{className?:string}){

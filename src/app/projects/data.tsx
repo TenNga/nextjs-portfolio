@@ -1,7 +1,9 @@
-import opTrackerImg from '../../public/images/opTracker.png';
-import invenTrackerImg from '../../public/images/inventrackerDemoScreen.png';
-import impressipeImg from '../../public/images/impressipeDemoScreen.png';
-import mazeImg from '../../public/images/mazeGameDemoScreen.png';
+import opTrackerImg from '../../../public/images/opTracker.png';
+import invenTrackerImg from '../../../public/images/inventrackerDemoScreen.png';
+import impressipeImg from '../../../public/images/impressipeDemoScreen.png';
+import mazeImg from '../../../public/images/mazeGameDemoScreen.png';
+import covidImg from '../../../public/images/covid_tracker.png';
+import quoteImg from '../../../public/images/quote_generator.png';
 
 export const projectData = [
     {
@@ -27,21 +29,21 @@ export const projectData = [
     },
     {
         title: 'Maze Game',
-        description: 'Developed grid base single-page JavaScript Maze game. Implemented custom design using CSS and HTML for excellent UX/UI. Utilized Ruby on Rails to store player information',
+        description: 'Developed grid base single-page JavaScript Maze game. Implemented custom design using CSS and HTML for excellent UX/UI. Utilized Ruby on Rails to store player information.',
         link: 'https://github.com/TenNga/Maze-Game-Front-End',
         image: mazeImg,
         videoLink: "https://www.youtube.com/watch?v=-LRVvHrbRl4"
     },
     {
-        title: 'Maze Game',
-        description: 'Developed grid base single-page JavaScript Maze game. Implemented custom design using CSS and HTML for excellent UX/UI. Utilized Ruby on Rails to store player information',
-        link: 'https://github.com/TenNga/Maze-Game-Front-End',
-        image: mazeImg
+        title: 'Quote Generator',
+        description: "At RQG, we believe in the power of words to inspire, motivate, and enlighten. Our web application offers instant inspiration with a click, providing moments of reflection, creativity, and motivation.",
+        link: 'https://github.com/TenNga/quote_generator',
+        image: quoteImg
     },
     {
-        title: 'Maze Game',
-        description: 'Developed grid base single-page JavaScript Maze game. Implemented custom design using CSS and HTML for excellent UX/UI. Utilized Ruby on Rails to store player information',
-        link: 'https://github.com/TenNga/Maze-Game-Front-End',
-        image: mazeImg,
+        title: 'COVID Tracker',
+        description: 'During the pandemic, we united to help each other. COVID-19 Tracker provides the latest updates and country-specific information on COVID-19.',
+        link: 'https://github.com/TenNga/covid-19-tracker',
+        image: covidImg,
     },
 ];
