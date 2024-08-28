@@ -17,7 +17,9 @@
 - Start the development server:
   `npm run dev`
 # Deployment
-[Follow the instructions above]
+
+- Vercel: For a quick and easy deployment, use Vercel. Follow their guide [Vercel guide page](https://vercel.com/guides/deploying-next-and-userbase-with-vercel) to deploy your project.
+- Other platforms: You can also deploy to other platforms like Netlify, Heroku, or AWS Amplify.
 
 # Contributing
 - Feel free to fork this repository and submit pull requests with improvements or new features.
