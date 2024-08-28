@@ -1,12 +1,12 @@
 # Dashboard Portfolio
-###A modern, interactive dashboard portfolio built with Next.js 14 and Tailwind CSS.
+- A modern, interactive dashboard portfolio built with Next.js 14, Typescript, and Tailwind CSS.
 
 #Features
 - Responsive design
 - Customizable theme
-- Data visualization charts
-- Project highlights
-- Contact form
+- Latest concept from NextJS 14
+- Github activity chart
+- Next components
 
 # Getting Started
 - Clone the repository:
