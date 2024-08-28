@@ -22,6 +22,10 @@
 # Contributing
 - Feel free to fork this repository and submit pull requests with improvements or new features.
 
+# Design using Figma
+
+![Mockup Design](https://www.figma.com/design/VVvP78ifXaDO5k6Wc2DSEp/NextJS-Portfolio?node-id=0-1&m=dev&t=irm2rqGJKBZ34GbC-1)
+
 # Screen Shot
 
 ![Demo Gift](demo.gif)
