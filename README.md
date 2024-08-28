@@ -24,5 +24,5 @@
 
 # Screen Shot
 
-[Insert screenshots or a GIF here]
+![Demo Gift](demo.gif)
 
