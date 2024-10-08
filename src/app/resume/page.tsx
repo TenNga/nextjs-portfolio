@@ -10,7 +10,7 @@ function Resume() {
                     Download Resume
                 </LinkBtn>
             
-                <DisplayResume pdfUrl={"/files/Kevin_Resume.pdf"}/>
+                {/* <DisplayResume pdfUrl={"/files/Kevin_Resume.pdf"}/> */}
             </div>
         </article>
     )
