@@ -9,7 +9,7 @@ function SkillHobby({name}:{name:string}) {
 
     return(
         <div className="mt-10">
-            <h1 className="text-white font-medium text-2xl capitalize">{name}</h1>
+            <h1 className="text-white font-medium text-xl capitalize">{name}</h1>
             <div className="flex flex-wrap mt-8 gap-y-4">
                 {name === 'skills'? renderSkills : renderHobbies}
             </div>
