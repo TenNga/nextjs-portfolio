@@ -4,14 +4,14 @@ import EachProject from "./EachProject";
 function RecentProject() {
     const recentProjectData = [
         {
-            name:"OpTracker",
-            link: "https://github.com/TenNga/op-tracker-frontend",
-            description: "No more spreadsheets, OpTracker organize your jobs with a beautiful user interface. Designed to make job search fun by representing each job in colorful cards. Developed ruby-on-rails back-end to store user’s information"
+            name:"Hue Match",
+            link: "https://hue-match.vercel.app/",
+            description: "Web application built with React, Next.js, and TypeScript. It uses the ChatGPT to generate customized color palettes based on the user's selected colors, creating seasonal palettes and color groups to avoid."
         },
         {
-            name:"InvenTracker",
-            link: "https://github.com/TenNga/inventracker-frontend",
-            description: "Developed the app using React native to simplify the process of tracking product/item and ability to deploy on iOS or Android platforms. Implemented scanner to save time when searching on inventory items by 50%."
+            name:"OpTracker",
+            link: "https://github.com/TenNga/op-tracker-frontend",
+            description: "No more spreadsheets, OpTracker organize your jobs with a beautiful user interface. Designed to make job search fun by representing each job in colorful cards. Developed ruby-on-rails backend to store user’s information"
         }
     ];
 
