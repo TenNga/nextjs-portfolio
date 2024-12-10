@@ -7,18 +7,18 @@ import Image from 'next/image'
 function MainHobby({className}:{className?:string}){
     const hobbies = [
         {
-            title: 'Coffee',
-            body: 'Keeps Me Awake',
+            title: 'Experience',
+            body: 'More than 3+ years',
             icon: CoffeeIcon
         },
         {
-            title: 'Music',
-            body: 'Stimulate Creativity',
+            title: 'Education',
+            body: 'Computer Science',
             icon: MusicIcon
         },
         {
-            title: 'Debugger',
-            body: 'Identify Problems',
+            title: 'Domain',
+            body: 'E-commerce site',
             icon: DuckIcon
         }
     ];
