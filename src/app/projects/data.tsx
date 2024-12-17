@@ -11,7 +11,7 @@ export const projectData = [
         description: 'No more spreadsheets, OpTracker organize your jobs with a beautiful user interface. Designed to make job search fun by representing each job in colorful cards. Developed ruby-on-rails backend to store user’s information',
         link: 'https://github.com/TenNga/op-tracker-frontend',
         image: opTrackerImg,
-        videoLink: "https://www.youtube.com/watch?v=R-AbUyKb8z8&t=22s"
+        videoLink: "https://op-tracker-frontend.vercel.app/"
     },
     {
         title: 'InvenTracker',

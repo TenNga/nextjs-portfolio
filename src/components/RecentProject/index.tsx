@@ -10,7 +10,7 @@ function RecentProject() {
         },
         {
             name:"OpTracker",
-            link: "https://github.com/TenNga/op-tracker-frontend",
+            link: "https://op-tracker-frontend.vercel.app/",
             description: "No more spreadsheets, OpTracker organize your jobs with a beautiful user interface. Designed to make job search fun by representing each job in colorful cards. Developed ruby-on-rails backend to store user’s information"
         }
     ];
